@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Body Mass Control</title>
+	<!-- Import main styles -->
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <!--[if lt IE 10]>
+<link rel="stylesheet" href="assets/css/ie.css">
+<![endif]-->
+
+<!-- <script src="assets/libs/jquery.waypoints.min.js"></script> -->
+<!-- <script src="assets/libs/animate-css.js"></script> -->
+</head>
+<body>
+	<div class="wctrl">
+		<h1>Body Mass Control</h1>
+		<h2>To be healthy and live longer, people need to watch their weight. This calculator will help you with this aspect of a healthy lifestyle.</h2>
+		<form>
+			<span class="input input--shoko">
+				<input class="input__field input__field--shoko" type="number" id="height" />
+				<label class="input__label input__label--shoko" for="weight">
+					<span class="input__label-content input__label-content--shoko">Height</span>
+				</label>
+				<svg class="graphic graphic--shoko" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+					<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+					<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+				</svg>
+			</span>
+
+			<span class="input input--shoko">
+				<input class="input__field input__field--shoko" type="number" id="weight" />
+				<label class="input__label input__label--shoko" for="weight">
+					<span class="input__label-content input__label-content--shoko">Weight</span>
+				</label>
+				<svg class="graphic graphic--shoko" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+					<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+					<path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"/>
+				</svg>
+			</span>
+
+			<input id="btn" type="submit" value="Calculate" class="button button1">
+		</form>
+		<div id="calculation" class="calculation"></div>
+		<a href="https://github.com/faynco" id="me" class="quiz__me"></a>
+	</div>
+
+	<script src="assets/libs/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/common.min.js"></script>
+</body>
+</html>
